@@ -1,8 +1,9 @@
 .options_list {
+  width: fit-content;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 16px 24px;
 }
 
 .option {
