@@ -1,0 +1,30 @@
+.stats_list {
+  margin-bottom: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.stats_item {
+  width: 104px;
+  height: 40px;
+  display: flex;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: #0c3a62;
+}
+
+.summary {
+  margin: 0 auto;
+  padding: 16px;
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  border-radius: 4px;
+  font-weight: 700;
+}
