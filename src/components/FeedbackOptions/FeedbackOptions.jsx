@@ -19,7 +19,9 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => (
           className={css.option}
           type="button"
           data-option={option}
-          onClick={onLeaveFeedback}
+          onClick={() => {
+            onLeaveFeedback(option);
+          }}
         >
           {option}
           {emoji[option]}

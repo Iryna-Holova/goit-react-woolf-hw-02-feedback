@@ -11,8 +11,7 @@ class App extends Component {
     bad: 0,
   };
 
-  handleLeaveFeedback = evt => {
-    const { option } = evt.currentTarget.dataset;
+  handleLeaveFeedback = option => {
     this.setState(state => ({
       [option]: state[option] + 1,
     }));
