@@ -14,7 +14,9 @@
   align-items: center;
   justify-content: center;
   text-transform: capitalize;
-  outline: 1px solid #0c3a62;
+  outline: 2px solid #0c3a62;
+  outline-offset: -2px;
+  -moz-outline-radius: 4px;
 }
 
 .summary {
