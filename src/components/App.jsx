@@ -11,11 +11,10 @@ class App extends Component {
     bad: 0,
   };
 
-  handleLeaveFeedback = option => {
-    this.setState(state => ({
-      [option]: state[option] + 1,
+  handleLeaveFeedback = option =>
+    this.setState(prevState => ({
+      [option]: prevState[option] + 1,
     }));
-  };
 
   countTotalFeedback() {
     return Object.values(this.state).reduce((acc, value) => acc + value, 0);
